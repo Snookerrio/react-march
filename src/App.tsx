@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PostsComponent from "./components/Posts-component/PostsComponent";
 
-const App =() => {
+const App=()=>{
+
+
 
 
   return (
-      <div></div>
+      <div>
+     <PostsComponent/>
+
+      </div>
   );
 }
 export default App;
